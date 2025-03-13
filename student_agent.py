@@ -4,8 +4,6 @@ import random
 import gym
 
 # Global variables to track our agent's internal state across calls.
-# (Note: In a real training setup you might prefer a learned Q-value table or network,
-#  but here we use a simple rule-based heuristic for clarity.)
 has_passenger = False      # True after a successful pickup
 pickup_station = None      # The station where the passenger was picked up
 target = None              # Current target station (either to search for a passenger or deliver)

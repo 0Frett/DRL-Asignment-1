@@ -7,3 +7,7 @@ __pycache__/
 
 # ignore eval.py
 eval.py
+custom_taxi_env.py
+q_student_agent.py
+q_table.pkl
+qlearn.py
